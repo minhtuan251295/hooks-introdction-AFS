@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// import App from './components/App';
+import DropDownMenu from "./components/DropDownMenu";
+import './styles/index.css';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DropDownMenu />
   </React.StrictMode>,
   document.getElementById('root')
 );
